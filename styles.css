@@ -6,13 +6,21 @@ body {
 display:flex;
 padding:10px;
 margin:10px;
-background: rgb(168, 225, 196)
+background: dimgrey;
 }
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border: 4px dashed;
 }
 h1 {
-    color:aqua;
+    color:blanchedalmond;
     text-align: center;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+a:hover{
+    color: fuchsia;
 }
