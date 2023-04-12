@@ -2,16 +2,28 @@ body {
     background: lightcoral;
     font-family:Arial, Helvetica, sans-serif;
 }
+head{
+    text-align: center;
+}
+.assignments{
+    
+    display :flex;
+    flex-wrap:wrap;
+}
 .assignment {
+    width:30%;
 display:flex;
 padding:10px;
 margin:10px;
 background: dimgrey;
+border-radius: 5px;
 }
 .assignment img {
     width:200px;
     margin:10px;
     border: 4px dashed;
+    display:block;
+    margin:auto;
 }
 h1 {
     color:blanchedalmond;
